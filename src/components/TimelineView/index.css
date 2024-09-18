@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.headertext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headertext h1 {
+  color: blueviolet;
+  font-size: 28px;
+}
+.bg-container {
+  padding: 20px;
+}
+
+@media (max-width: 400px) {
+  .headertext h1 {
+    color: blueviolet;
+    font-size: 20px;
+  }
+}
+
+

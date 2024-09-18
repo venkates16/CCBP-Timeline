@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.courseCard {
+  width: 100%;
+}
+.clockdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.texteach {
+  background-color: rgb(195, 198, 201);
+  padding: 4px 6px;
+}
+.contentEach {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 4px;
+  flex-wrap: wrap;
+}
